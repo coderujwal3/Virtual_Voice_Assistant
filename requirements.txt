@@ -1,0 +1,9 @@
+SpeechRecognition
+datetime
+pyttsx3
+sketchpy
+wikipedia
+pyaudio
+pyautogui
+pyjokes
+AppOpener
