@@ -143,7 +143,7 @@ def generate_password():
 
     chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#?'*-_+=&"
     password = "".join(random.sample(chars, min(length, len(chars))))
-    speak("Here is your password. I will display it on screen as well.")
+    speak(f"Here is your password, {password}. I will display it on screen as well.")
     print("Generated password:", password)
 
 
@@ -439,3 +439,4 @@ if __name__ == "__main__":
     except Exception as e:
         print("Fatal error:", e)
         speak("An unexpected error occurred. Check the console for details.")
+
